@@ -83,7 +83,7 @@ function showResult() {
     switch (epoch) {
       case "90s":
         r1 =
-          "¡Eres un auténtico Camba de los 90! Santa Cruz de la Sierra experimentó una transformación significativa debido al rápido crecimiento económico y la modernización. Este periodo se caracterizó por un aumento demográfico y una expansión de la infraestructura urbana, con nuevos barrios y avenidas como la Avenida Ballivián. Lugares emblemáticos como el Cine Palace, el Cine Florida y el Cine Arenal se convirtieron en centros de entretenimiento clave, mientras que la Plaza 24 de septiembre y el Parque El Arenal siguieron siendo puntos de encuentro y recreación.";
+          "¡Eres un auténtico Camba de los 90! En esta epoca Santa Cruz de la Sierra experimentó una transformación significativa debido al rápido crecimiento económico y la modernización. Este periodo se caracterizó por un aumento demográfico y una expansión de la infraestructura urbana, con nuevos barrios y avenidas como la Avenida Ballivián. Lugares emblemáticos como el Cine Palace, el Cine Florida y el Cine Arenal se convirtieron en centros de entretenimiento clave, mientras que la Plaza 24 de septiembre y el Parque El Arenal siguieron siendo puntos de encuentro y recreación.";
         r2 =
           "El camba de esta época mantenía una identidad regional orgullosa, influenciada por tradiciones como el taquirari y el bolero, aunque también se vio afectado por la globalización, con géneros internacionales como el pop latino ganando popularidad. <br> El carnaval de Santa Cruz era una celebración vibrante y alegre, con bandas en las calles, la noche de las mascaritas, y tres días de mojazón y diversión. Este evento reflejaba la esencia festiva de la ciudad, donde la comunidad se unía para celebrar con música, baile y color. Los jóvenes adoptaron estilos de vida sin perder sus raíces, reflejando una sociedad en transición que fusionaba lo tradicional con lo moderno.";
         imageUrl =
@@ -91,7 +91,7 @@ function showResult() {
         break;
       case "00s":
         r1 =
-          "¡Eres un Camba de la década del 2000! Entre 2000 y 2010, el camba se destacó por su estilo de vida social, con lugares icónicos como el cine Center, Equipetrol, y el Café Lorca, donde la juventud se reunía para socializar. Las discotecas y bares de Equipetrol se convirtieron en los principales puntos de encuentro, ofreciendo un espacio vibrante para disfrutar de música y compañía. Cines como el cine center, Bella Vista y palace atraían a las multitudes, proporcionando una experiencia cinematográfica moderna.";
+          "¡Eres un Camba de la década del 2000! En esta epoca, el camba se destacó por su estilo de vida social, con lugares icónicos como el cine Center, Equipetrol, y el Café Lorca, donde la juventud se reunía para socializar. Las discotecas y bares de Equipetrol se convirtieron en los principales puntos de encuentro, ofreciendo un espacio vibrante para disfrutar de música y compañía. Cines como el cine center, Bella Vista y palace atraían a las multitudes, proporcionando una experiencia cinematográfica moderna.";
         r2 =
           "El Carnaval se celebraba en garajes, la Ballivian y el Corso en el segundo anillo, convirtiéndose en una manifestación cultural que unía a la comunidad. Durante esta década, géneros como el reguetón y la cumbia dominaban las fiestas, con artistas como Daddy Yankee y bandas de rock en español que también mantenían su relevancia. Este periodo reflejó la fusión de tradiciones y modernidad en la identidad del camba, resaltando su amor por la música y la celebración.";
         imageUrl =
@@ -135,7 +135,7 @@ function showResult() {
       result +=
         "Tienes un pie en los 2000 y otro en la modernidad de los 2010. Viviste la evolución de los garajes del carnaval al Cambodromo, y el paso de la cumbia al pop y la electrónica. ¡Eres testigo del rápido desarrollo urbano y cultural de la ciudad!";
       imageUrl =
-        "https://scontent.flpb3-1.fna.fbcdn.net/v/t39.30808-6/306700620_6052401318161840_1542994966011405635_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=5MKysrGgYYUQ7kNvgHaS-A1&_nc_ht=scontent.flpb3-1.fna&_nc_gid=ArcfKhKxRbc-iqApX1SVCXE&oh=00_AYAUlnRyb-sJaTRDOCuBvo9r44fih-NjJR8pfsxBCGZmCg&oe=66F34F53";
+        "https://scontent.flpb3-2.fna.fbcdn.net/v/t1.6435-9/50534753_239482850317390_1506090815611469824_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OOOLsB_VE9gQ7kNvgFyTChy&_nc_ht=scontent.flpb3-2.fna&oh=00_AYB2TFLL-y62aK9mPfZ9aluo4oo79vvEd5HBZK3kg7o3NQ&oe=6714E27A";
     } else if (
       dominantEpochs.includes("10s") &&
       dominantEpochs.includes("20s")
@@ -143,7 +143,7 @@ function showResult() {
       result +=
         "Eres la perfecta fusión entre la década pasada y la actualidad. Has visto nacer los grandes malls y cómo el carnaval se ha adaptado a los nuevos tiempos. Tu música va desde el pop hasta el reggaetón moderno. ¡Representas la Santa Cruz más cosmopolita y conectada con el mundo!";
       imageUrl =
-        "https://scontent.flpb3-1.fna.fbcdn.net/v/t39.30808-6/306700620_6052401318161840_1542994966011405635_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=5MKysrGgYYUQ7kNvgHaS-A1&_nc_ht=scontent.flpb3-1.fna&_nc_gid=ArcfKhKxRbc-iqApX1SVCXE&oh=00_AYAUlnRyb-sJaTRDOCuBvo9r44fih-NjJR8pfsxBCGZmCg&oe=66F34F53";
+        "https://scontent.flpb3-2.fna.fbcdn.net/v/t1.6435-9/50534753_239482850317390_1506090815611469824_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OOOLsB_VE9gQ7kNvgFyTChy&_nc_ht=scontent.flpb3-2.fna&oh=00_AYB2TFLL-y62aK9mPfZ9aluo4oo79vvEd5HBZK3kg7o3NQ&oe=6714E27A";
     } else if (
       dominantEpochs.includes("90s") &&
       dominantEpochs.includes("10s")
@@ -158,7 +158,7 @@ function showResult() {
       result +=
         "¡Wow! Tienes un pie en los 90 y otro en el presente. Tal vez prefieres la Plaza 24 pero también disfrutas de Las Brisas Mall, o te gusta tanto el pop latino como el reggaetón moderno. ¡Tu perfil es un testimonio viviente de cómo Santa Cruz ha cambiado en las últimas tres décadas!";
       imageUrl =
-        "https://scontent.flpb3-2.fna.fbcdn.net/v/t1.6435-9/50534753_239482850317390_1506090815611469824_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OOOLsB_VE9gQ7kNvgFyTChy&_nc_ht=scontent.flpb3-2.fna&oh=00_AYB2TFLL-y62aK9mPfZ9aluo4oo79vvEd5HBZK3kg7o3NQ&oe=6714E27A";
+        "img/10s.png";
     } else if (
       dominantEpochs.includes("00s") &&
       dominantEpochs.includes("20s")
@@ -166,7 +166,7 @@ function showResult() {
       result +=
         "Fusionas la energía de los 2000 con la innovación de la actualidad. Quizás prefieres el Cine Center pero también disfrutas del IMAX, o te gusta tanto la cumbia como la música urbana. ¡Tu perfil refleja cómo Santa Cruz ha mantenido su esencia mientras se moderniza!";
       imageUrl =
-        "https://scontent.flpb3-2.fna.fbcdn.net/v/t1.6435-9/50534753_239482850317390_1506090815611469824_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OOOLsB_VE9gQ7kNvgFyTChy&_nc_ht=scontent.flpb3-2.fna&oh=00_AYB2TFLL-y62aK9mPfZ9aluo4oo79vvEd5HBZK3kg7o3NQ&oe=6714E27A";
+        "https://img.freepik.com/foto-gratis/chico-joven-inconformista-gafas-riendo-felizmente-aislado-blanco_146671-15519.jpg?t=st=1727096529~exp=1727100129~hmac=d44a486b859b073b7d8224f30073ad62e86066203a11e43b36d58b0d1458ae27&w=996";
     }
   }
 
