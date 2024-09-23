@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversario de Santa Cruz de la Sierra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="https://png.pngtree.com/png-vector/20240528/ourmid/pngtree-classic-western-style-hat-rugged-straw-for-cowboys-authentic-cowboy-headwear-png-image_12532240.png" alt="" id="sao">
+    <h1 id="Descubre">🎉 Descubre ¿De qué época eres? 🎉</h1>
+    
+    <div id="progress-bar">
+        <div id="progress"></div>
+    </div>
+
+    <div id="quiz">
+        <div class="question hidden">
+            <button class="small-restart" onclick="resetQuiz()">Reiniciar</button>
+            <h2>1. ¿Cuál era o es tu lugar favorito para una cita?</h2>
+            <div class="options" id="q1">
+                <button class="option" data-value="90s">Parque el arenal</button>
+                <button class="option" data-value="90s">Plaza 24 de septiembre</button>
+                <button class="option" data-value="90s">Cine Palace</button>
+                <button class="option" data-value="00s">Parque Urbano</button>
+                <button class="option" data-value="00s">Boulevard Monseñor Rivero</button>
+                <button class="option" data-value="00s">Burguer king</button>
+                <button class="option" data-value="10s">Parque los Mangales</button>
+                <button class="option" data-value="10s">Ventura Mall</button>
+                <button class="option" data-value="20s">Las lomas de arena</button>
+                <button class="option" data-value="20s">Las Brisas Mall</button>
+            </div>
+        </div>
+
+        <div class="question hidden">
+            <button class="small-restart" onclick="resetQuiz()">Reiniciar</button>
+            <h2>2. ¿Cuál era o es tu cine favorito?</h2>
+            <div class="options" id="q2">
+                <button class="option" data-value="90s">Cine Palace</button>
+                <button class="option" data-value="90s">Cine Arenal</button>
+                <button class="option" data-value="90s">Cine Florida</button>
+                <button class="option" data-value="00s">Cine Center</button>
+                <button class="option" data-value="00s">Cine Bella vista</button>
+                <button class="option" data-value="10s">Multicine</button>
+                <button class="option" data-value="10s">Cinemark (Ventura Mall)</button>
+                <button class="option" data-value="20s">IMAX Ventura</button>
+                <button class="option" data-value="20s">Cine Las Brisas</button>
+                <button class="option" data-value="00s">Rene Moreno</button>
+            </div>
+        </div>
+
+        <div class="question hidden">
+            <button class="small-restart" onclick="resetQuiz()">Reiniciar</button>
+            <h2>3. ¿Cuál era o es tu género de música favorita?</h2>
+            <div class="options" id="q3">
+                <button class="option" data-value="90s">Taquirari</button>
+                <button class="option" data-value="90s">Pop Latino</button>
+                <button class="option" data-value="90s">Boleros</button>
+                <button class="option" data-value="00s">Cumbia</button>
+                <button class="option" data-value="00s">Rock</button>
+                <button class="option" data-value="00s">Reggaetón Antiguo</button>
+                <button class="option" data-value="10s">Pop</button>
+                <button class="option" data-value="10s">Electrónica</button>
+                <button class="option" data-value="10s">Cumbia Tropical</button>
+                <button class="option" data-value="20s">Reggaetón Moderno</button>
+            </div>
+        </div>
+
+        <div class="question hidden">
+            <button class="small-restart" onclick="resetQuiz()">Reiniciar</button>
+            <h2>4. ¿Dónde disfrutabas o disfrutas el carnaval?</h2>
+            <div class="options" id="q4">
+                <button class="option" data-value="90s">Plaza 24 de septiembre</button>
+                <button class="option" data-value="90s">Las calles o barrios</button>
+                <button class="option" data-value="90s">Avenida Ballivian</button>
+                <button class="option" data-value="00s">Garajes</button>
+                <button class="option" data-value="00s">Monseñor Rivero</button>
+                <button class="option" data-value="10s">Cambodromo</button>
+                <button class="option" data-value="10s">Fraternidades</button>
+                <button class="option" data-value="20s">Vallegrande</button>
+                <button class="option" data-value="20s">Fiestas privadas</button>
+                <button class="option" data-value="00s">Avenida Irala</button>
+            </div>
+        </div>
+
+        <div class="question hidden" id="result-question">
+            <h2 style="text-align: center;">¡Tu resultado está listo!</h2>
+            <div id="result"></div>
+            <img id="result-image" src="" alt="Imagen representativa" style="display: none; max-width: 100%; height: auto; margin-top: 20px;">
+            <button id="restart-button">Empezar de nuevo</button>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
