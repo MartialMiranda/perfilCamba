@@ -20,6 +20,7 @@ body {
   margin: 0 auto;
   transition: all 0.3s ease;
 }
+
 #sao {
   position: absolute;
   margin-top: 8px;
@@ -35,6 +36,7 @@ h1 {
   margin-bottom: 30px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .question {
   background-color: white;
   border-radius: 15px;
@@ -163,4 +165,69 @@ h1 {
 
 .small-restart:hover {
   background-color: var(--accent-color);
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .question {
+    font-size: 1.2em;
+  }
+
+  .option {
+    flex-basis: 100%;
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  #sao {
+    width: 150px; /* Reduce the size for medium screens */
+    margin-left: -100px; /* Adjust margin */
+  }
+
+  #result {
+    font-size: 1.2em;
+    padding: 20px;
+  }
+
+  #restart-button {
+    font-size: 1em;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .question {
+    padding: 15px;
+    font-size: 1em;
+  }
+
+  .option {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+  #sao {
+    width: 120px; 
+    margin-left: -80px; /* Adjust margin for better alignment */
+    margin-top: 5px; /* Adjust top margin */
+  }
+
+  #result {
+    font-size: 1em;
+  }
+
+  #restart-button {
+    font-size: 0.9em;
+  }
 }

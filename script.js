@@ -87,7 +87,7 @@ function showResult() {
         r2 =
           "El camba de esta época mantenía una identidad regional orgullosa, influenciada por tradiciones como el taquirari y el bolero, aunque también se vio afectado por la globalización, con géneros internacionales como el pop latino ganando popularidad. <br> El carnaval de Santa Cruz era una celebración vibrante y alegre, con bandas en las calles, la noche de las mascaritas, y tres días de mojazón y diversión. Este evento reflejaba la esencia festiva de la ciudad, donde la comunidad se unía para celebrar con música, baile y color. Los jóvenes adoptaron estilos de vida sin perder sus raíces, reflejando una sociedad en transición que fusionaba lo tradicional con lo moderno.";
         imageUrl =
-          "https://scontent.flpb3-2.fna.fbcdn.net/v/t1.6435-9/95389828_3015487261828088_3277209034968530944_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=25d718&_nc_ohc=fsipBOH2OisQ7kNvgFHxezf&_nc_ht=scontent.flpb3-2.fna&_nc_gid=AmF6d2DW9HVJfOnOXALxNvL&oh=00_AYAIbrUOJc-wxcbVfzLyB4mRwzn_DwB3JSZuq4rffX_4jA&oe=671502DD";
+          "img/90s.jpg";
         break;
       case "00s":
         r1 =
@@ -95,7 +95,7 @@ function showResult() {
         r2 =
           "El Carnaval se celebraba en garajes, la Ballivian y el Corso en el segundo anillo, convirtiéndose en una manifestación cultural que unía a la comunidad. Durante esta década, géneros como el reguetón y la cumbia dominaban las fiestas, con artistas como Daddy Yankee y bandas de rock en español que también mantenían su relevancia. Este periodo reflejó la fusión de tradiciones y modernidad en la identidad del camba, resaltando su amor por la música y la celebración.";
         imageUrl =
-          "https://scontent.flpb3-2.fna.fbcdn.net/v/t1.6435-9/50534753_239482850317390_1506090815611469824_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OOOLsB_VE9gQ7kNvgFyTChy&_nc_ht=scontent.flpb3-2.fna&oh=00_AYB2TFLL-y62aK9mPfZ9aluo4oo79vvEd5HBZK3kg7o3NQ&oe=6714E27A";
+          "img/00s.jpg";
         break;
       case "10s":
         r1 =
@@ -115,7 +115,7 @@ function showResult() {
           "Esta década ha traído desafíos únicos, pero también ha mostrado la capacidad de adaptación de los cambas. El Ventura Mall y la avenida Monseñor Rivero se destacan como lugares de encuentro modernos. Los cines Cine Center, Multicine y Cinemark siguen siendo puntos de referencia para el entretenimiento, mientras que la música urbana, la cumbia y la electrónica dominan las fiestas. El carnaval se disfruta tanto en el Cambódromo como en pueblos cercanos como Porongo y Samaipata, con fraternidades que continúan siendo parte esencial de la tradición. Tu perfil camba refleja una combinación de modernidad y tradición, manteniéndote conectado a tus raíces en tiempos de cambio.";
 
         imageUrl =
-          "https://img.freepik.com/foto-gratis/chico-joven-inconformista-gafas-riendo-felizmente-aislado-blanco_146671-15519.jpg?t=st=1727096529~exp=1727100129~hmac=d44a486b859b073b7d8224f30073ad62e86066203a11e43b36d58b0d1458ae27&w=996";
+          "img/20s.avif";
         break;
     }
     result = r1 + imageUrl + r2;
@@ -127,7 +127,7 @@ function showResult() {
       result +=
         "Combinas la nostalgia de los 90 con la energía de los 2000. Quizás disfrutaste de la transición de la Plaza 24 al Boulevard Monseñor Rivero, y viste cómo el Cine Palace dio paso al Cine Center. ¡Una mezcla fascinante de dos épocas de gran cambio para Santa Cruz!";
       imageUrl =
-        "https://scontent.flpb3-2.fna.fbcdn.net/v/t1.6435-9/95389828_3015487261828088_3277209034968530944_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=25d718&_nc_ohc=fsipBOH2OisQ7kNvgFHxezf&_nc_ht=scontent.flpb3-2.fna&_nc_gid=AmF6d2DW9HVJfOnOXALxNvL&oh=00_AYAIbrUOJc-wxcbVfzLyB4mRwzn_DwB3JSZuq4rffX_4jA&oe=671502DD";
+        "img/90s.jpg";
     } else if (
       dominantEpochs.includes("00s") &&
       dominantEpochs.includes("10s")
@@ -135,7 +135,7 @@ function showResult() {
       result +=
         "Tienes un pie en los 2000 y otro en la modernidad de los 2010. Viviste la evolución de los garajes del carnaval al Cambodromo, y el paso de la cumbia al pop y la electrónica. ¡Eres testigo del rápido desarrollo urbano y cultural de la ciudad!";
       imageUrl =
-        "https://scontent.flpb3-2.fna.fbcdn.net/v/t1.6435-9/50534753_239482850317390_1506090815611469824_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OOOLsB_VE9gQ7kNvgFyTChy&_nc_ht=scontent.flpb3-2.fna&oh=00_AYB2TFLL-y62aK9mPfZ9aluo4oo79vvEd5HBZK3kg7o3NQ&oe=6714E27A";
+        "img/00s.jpg";
     } else if (
       dominantEpochs.includes("10s") &&
       dominantEpochs.includes("20s")
@@ -143,7 +143,7 @@ function showResult() {
       result +=
         "Eres la perfecta fusión entre la década pasada y la actualidad. Has visto nacer los grandes malls y cómo el carnaval se ha adaptado a los nuevos tiempos. Tu música va desde el pop hasta el reggaetón moderno. ¡Representas la Santa Cruz más cosmopolita y conectada con el mundo!";
       imageUrl =
-        "https://scontent.flpb3-2.fna.fbcdn.net/v/t1.6435-9/50534753_239482850317390_1506090815611469824_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OOOLsB_VE9gQ7kNvgFyTChy&_nc_ht=scontent.flpb3-2.fna&oh=00_AYB2TFLL-y62aK9mPfZ9aluo4oo79vvEd5HBZK3kg7o3NQ&oe=6714E27A";
+        "img/00s.jpg";
     } else if (
       dominantEpochs.includes("90s") &&
       dominantEpochs.includes("10s")
@@ -166,7 +166,7 @@ function showResult() {
       result +=
         "Fusionas la energía de los 2000 con la innovación de la actualidad. Quizás prefieres el Cine Center pero también disfrutas del IMAX, o te gusta tanto la cumbia como la música urbana. ¡Tu perfil refleja cómo Santa Cruz ha mantenido su esencia mientras se moderniza!";
       imageUrl =
-        "https://img.freepik.com/foto-gratis/chico-joven-inconformista-gafas-riendo-felizmente-aislado-blanco_146671-15519.jpg?t=st=1727096529~exp=1727100129~hmac=d44a486b859b073b7d8224f30073ad62e86066203a11e43b36d58b0d1458ae27&w=996";
+        "img/20s.avif";
     }
   }
 
