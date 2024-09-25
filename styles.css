@@ -11,14 +11,24 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--background-color);
-  background-size: cover;
-  background-position: center;
+  background-image: url('img/layered-waves-haikei2.svg'); /* El SVG como fondo */
+  background-size: cover; /* Asegura que cubra todo el fondo */
+  background-position: bottom; /* Fija el SVG en la parte inferior */
+  background-repeat: no-repeat; /* Evita que se repita el SVG */
   color: var(--text-color);
   line-height: 1.6;
   padding: 20px;
   max-width: 1000px;
   margin: 0 auto;
   transition: all 0.3s ease;
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+
+#Descubre:hover {
+  transform: scale(1.05);
 }
 
 #sao {
@@ -27,6 +37,10 @@ body {
   margin-left: -150px;
   transform: rotate(-15deg);
   width: 250px;
+}
+
+#sao:hover {
+  transform: translateY(-1px);
 }
 
 h1 {
@@ -42,7 +56,7 @@ h1 {
   border-radius: 15px;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease;
   position: relative;
   font-size: 1.5em;
@@ -165,6 +179,7 @@ h1 {
 
 .small-restart:hover {
   background-color: var(--accent-color);
+  transform: scale(1.05);
 }
 
 /* Media Queries for Responsiveness */
@@ -187,9 +202,10 @@ h1 {
     font-size: 1em;
     margin: 5px 0;
   }
+
   #sao {
-    width: 150px; /* Reduce the size for medium screens */
-    margin-left: -100px; /* Adjust margin */
+    width: 150px;
+    margin-left: -100px;
   }
 
   #result {
@@ -217,10 +233,11 @@ h1 {
     font-size: 0.9em;
     padding: 10px;
   }
+
   #sao {
-    width: 120px; 
-    margin-left: -80px; /* Adjust margin for better alignment */
-    margin-top: 5px; /* Adjust top margin */
+    width: 120px;
+    margin-left: -80px;
+    margin-top: 5px;
   }
 
   #result {

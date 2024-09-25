@@ -144,7 +144,7 @@ function showResult() {
     ) {
       r1 +=
         " ¡Qué contraste! Mezclas lo mejor de los 90 con la modernidad de los 2010. Quizás añoras el Cine Palace pero disfrutas de Multicine, o prefieres el taquirari pero también te mueves con la electrónica. ¡Tu perfil demuestra cómo Santa Cruz ha evolucionado manteniendo sus raíces!";
-      imageUrl = "";
+      imageUrl = "img/10s.png";
     } else if (
       dominantEpochs.includes("90s") &&
       dominantEpochs.includes("20s")
